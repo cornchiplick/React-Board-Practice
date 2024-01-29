@@ -1,0 +1,362 @@
+{
+  "menus": [
+    {
+      "id": "red",
+      "name": "빨간색",
+      "path": "red"
+    },
+    {
+      "id": "blue",
+      "name": "파란색",
+      "path": "blue"
+    },
+    {
+      "id": "green",
+      "name": "초록색",
+      "path": "green"
+    },
+    {
+      "id": "board",
+      "name": "게시글",
+      "path": "board"
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "title": "dksusd?",
+      "contents": "1번 게시글 내용입니다.",
+      "regDate": 1672945067203,
+      "isRead": false
+    },
+    {
+      "id": 2,
+      "title": "게시글 2번 제목 입니다.",
+      "contents": "2번 게시글 내용입니다.",
+      "regDate": 1673077524716,
+      "isRead": false
+    },
+    {
+      "id": 3,
+      "title": "게시글 3번 제목 입니다.",
+      "contents": "3번 게시글 내용입니다.",
+      "regDate": 1673353794900,
+      "isRead": true
+    },
+    {
+      "id": 4,
+      "title": "게시글 4번 제목 입니다.",
+      "contents": "4번 게시글 내용입니다.",
+      "regDate": 1674672364255,
+      "isRead": false
+    },
+    {
+      "id": 5,
+      "title": "게시글 5번 제목 입니다.",
+      "contents": "5번 게시글 내용입니다.",
+      "regDate": 1677268684074,
+      "isRead": true
+    },
+    {
+      "id": 6,
+      "title": "게시글 6번 제목 입니다.",
+      "contents": "6번 게시글 내용입니다.",
+      "regDate": 1678302851662,
+      "isRead": true
+    },
+    {
+      "id": 7,
+      "title": "게시글 7번 제목 입니다.",
+      "contents": "7번 게시글 내용입니다.",
+      "regDate": 1678463022445,
+      "isRead": false
+    },
+    {
+      "id": 8,
+      "title": "게시글 8번 제목 입니다.",
+      "contents": "8번 게시글 내용입니다.",
+      "regDate": 1678747545180,
+      "isRead": false
+    },
+    {
+      "id": 9,
+      "title": "게시글 9번 제목 입니다.",
+      "contents": "9번 게시글 내용입니다.",
+      "regDate": 1680327136711,
+      "isRead": false
+    },
+    {
+      "id": 10,
+      "title": "게시글 10번 제목 입니다.",
+      "contents": "10번 게시글 내용입니다.",
+      "regDate": 1683108836345,
+      "isRead": false
+    },
+    {
+      "id": 11,
+      "title": "게시글 11번 제목 입니다.",
+      "contents": "11번 게시글 내용입니다.",
+      "regDate": 1689558786648,
+      "isRead": false
+    },
+    {
+      "id": 12,
+      "title": "게시글 12번 제목 입니다.",
+      "contents": "12번 게시글 내용입니다.",
+      "regDate": 1692312015654,
+      "isRead": false
+    },
+    {
+      "id": 13,
+      "title": "게시글 13번 제목 입니다.",
+      "contents": "13번 게시글 내용입니다.",
+      "regDate": 1694023098743,
+      "isRead": false
+    },
+    {
+      "id": 14,
+      "title": "게시글 14번 제목 입니다.",
+      "contents": "14번 게시글 내용입니다.",
+      "regDate": 1697401605604,
+      "isRead": false
+    },
+    {
+      "id": 15,
+      "title": "게시글 15번 제목 입니다.",
+      "contents": "15번 게시글 내용입니다.",
+      "regDate": 1698451094816,
+      "isRead": false
+    },
+    {
+      "id": 16,
+      "title": "게시글 16번 제목 입니다.",
+      "contents": "16번 게시글 내용입니다.",
+      "regDate": 1699530050247,
+      "isRead": false
+    },
+    {
+      "id": 17,
+      "title": "게시글 17번 제목 입니다.",
+      "contents": "17번 게시글 내용입니다.",
+      "regDate": 1699968699101,
+      "isRead": true
+    },
+    {
+      "id": 18,
+      "title": "게시글 18번 제목 입니다.",
+      "contents": "18번 게시글 내용입니다.",
+      "regDate": 1700181880856,
+      "isRead": true
+    },
+    {
+      "id": 19,
+      "title": "게시글 19번 제목 입니다.",
+      "contents": "19번 게시글 내용입니다.",
+      "regDate": 1700649823819,
+      "isRead": false
+    },
+    {
+      "id": 20,
+      "title": "게시글 20번 제목 입니다.",
+      "contents": "20번 게시글 내용입니다.",
+      "regDate": 1701676173657,
+      "isRead": false
+    },
+    {
+      "title": "111",
+      "contents": "222",
+      "regDate": 1701703183912,
+      "id": 21,
+      "isRead": false
+    },
+    {
+      "title": "22번이요",
+      "contents": "22번이요22번이요",
+      "regDate": 1701703422776,
+      "id": 22,
+      "isRead": false
+    },
+    {
+      "title": "232323",
+      "contents": "2323232",
+      "regDate": 1701732154951,
+      "id": 23,
+      "isRead": false
+    },
+    {
+      "title": "도현이가 등록한다",
+      "contents": "홍홍",
+      "regDate": 1701745649909,
+      "id": 24,
+      "isRead": true
+    },
+    {
+      "title": "ㄴㅇ",
+      "contents": "ㄴㅇㄴㅇ",
+      "regDate": 1701762039196,
+      "isRead": true,
+      "id": 25
+    },
+    {
+      "title": "asdfasdf",
+      "contents": "asdfasdf",
+      "regDate": 1701845838178,
+      "isRead": false,
+      "id": 26
+    },
+    {
+      "title": "11111",
+      "contents": "2222",
+      "regDate": 1701845971282,
+      "isRead": false,
+      "id": 27
+    },
+    {
+      "title": "2222",
+      "contents": "2222",
+      "regDate": 1701845979113,
+      "isRead": false,
+      "id": 28
+    },
+    {
+      "title": "3333",
+      "contents": "3333",
+      "regDate": 1701846066594,
+      "isRead": false,
+      "id": 29
+    },
+    {
+      "title": "12312312",
+      "contents": "123123123",
+      "regDate": 1701913388693,
+      "isRead": false,
+      "id": 30
+    },
+    {
+      "title": "123123",
+      "contents": "2323",
+      "regDate": 1701913540562,
+      "isRead": false,
+      "id": 31
+    },
+    {
+      "title": "???",
+      "contents": "123",
+      "regDate": 1701913685989,
+      "isRead": false,
+      "id": 32
+    },
+    {
+      "title": "123",
+      "contents": "123",
+      "regDate": 1701913827993,
+      "isRead": true,
+      "id": 33
+    },
+    {
+      "title": "1111111",
+      "contents": "11111",
+      "regDate": 1701913849343,
+      "isRead": true,
+      "id": 34
+    },
+    {
+      "title": "123123123",
+      "contents": "123123123",
+      "regDate": 1701913893838,
+      "isRead": true,
+      "id": 35
+    },
+    {
+      "title": "호호호호",
+      "contents": "호호호",
+      "regDate": 1702018937354,
+      "isRead": true,
+      "id": 36
+    },
+    {
+      "title": "키키키키223",
+      "contents": "호호호ㅗ",
+      "regDate": 1702019330656,
+      "isRead": true,
+      "id": 37
+    },
+    {
+      "title": "음....",
+      "contents": "호....",
+      "regDate": 1702217289594,
+      "isRead": false,
+      "id": 38
+    },
+    {
+      "title": "asdfasdf",
+      "contents": "asdfasdf",
+      "regDate": 1702217343855,
+      "isRead": true,
+      "id": 39
+    },
+    {
+      "title": "ddddd.....",
+      "contents": "2222...",
+      "regDate": 1702217767680,
+      "isRead": true,
+      "id": 40
+    },
+    {
+      "title": "123123123",
+      "contents": "123123123",
+      "regDate": 1702279194497,
+      "isRead": false,
+      "id": 41
+    },
+    {
+      "title": "asdfasdf",
+      "contents": "asdfasdf",
+      "regDate": 1703221617582,
+      "isRead": false,
+      "id": 42
+    },
+    {
+      "title": "하나 더 등록해본다",
+      "contents": "ㅅㄷㄴㅅ",
+      "isRead": false,
+      "regDate": 1705995369701,
+      "id": 43
+    },
+    {
+      "title": "title 77",
+      "contents": "contents 77",
+      "isRead": false,
+      "regDate": 1702018937354,
+      "id": 44
+    },
+    {
+      "title": "dma",
+      "contents": "dmadmadma",
+      "regDate": 1706151486647,
+      "isRead": false,
+      "id": 45
+    },
+    {
+      "title": "게시글111",
+      "contents": "게시글내용111",
+      "regDate": 1706151688560,
+      "isRead": false,
+      "id": 46
+    },
+    {
+      "title": "게시글22",
+      "contents": "게시글내용22",
+      "regDate": 1706151738075,
+      "isRead": false,
+      "id": 47
+    },
+    {
+      "title": "dfd",
+      "contents": "sdsd",
+      "regDate": 1706157814018,
+      "isRead": false,
+      "id": 48
+    }
+  ]
+}

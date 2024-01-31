@@ -14,34 +14,36 @@ export default function BoardContainer() {
   };
 
   return (
-    <Stack sx={{mt: 1, width: 1, height: 1, gap: 2}}>
-      <Typography variant="h4">Board Container</Typography>
-      <Stack direction="row"
-        sx={{
-          flex: 1,
-          gap: 2,
-          overflow: "auto"
-        }}>
-        {/* 좌측 LNB */}
-        <Stack sx={{width: 300}}>
-          <Lnb>
-            <Stack sx={{p: 2}}>
-              <Button fullWidth variant="contained" onClick={onClickShowWrite}>
-                Write
-              </Button>
-            </Stack>
-          </Lnb>
-        </Stack>
+    <>
+      <Stack sx={{mt: 1, width: 1, height: 1, gap: 2}}>
+        <Typography variant="h4">Board Container</Typography>
+        <Stack direction="row"
+          sx={{
+            flex: 1,
+            gap: 2,
+            overflow: "auto"
+          }}>
+          {/* 좌측 LNB */}
+          <Stack sx={{width: 300}}>
+            <Lnb>
+              <Stack sx={{p: 2}}>
+                <Button fullWidth variant="contained" onClick={onClickShowWrite}>
+                  Write
+                </Button>
+              </Stack>
+            </Lnb>
+          </Stack>
 
-        {/* 우측 Contents */}
-        <Stack sx={{flex: 1, overflow: "auto"}}>
-          <Suspense>
-            <Outlet/>
-          </Suspense>
+          {/* 우측 Contents */}
+          <Stack sx={{flex: 1, overflow: "auto"}}>
+            <Suspense>
+              <Outlet/>
+            </Suspense>
+          </Stack>
         </Stack>
-
       </Stack>
+      
       {writeState.isShow && <BoardWrite/>}
-    </Stack>
+    </>
   )
 }

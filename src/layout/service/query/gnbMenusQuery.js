@@ -1,4 +1,4 @@
-import { useQuery } from '@tanstack/react-query';
+import { useSuspenseQuery } from '@tanstack/react-query';
 import axios from 'axios';
 
 const getMenus = () => {
@@ -6,7 +6,7 @@ const getMenus = () => {
 };
 
 export const useGnbMenusQuery = () => {
-  return useQuery({
+  return useSuspenseQuery({
     queryKey: ['gnb', 'menus'],
     queryFn: getMenus,
     staleTime: Infinity,

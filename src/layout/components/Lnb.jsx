@@ -10,6 +10,7 @@ export default function Lnb({sx, children}) {
       {children}
       <Stack sx={{
         flex: 1,
+        overflow: "auto",
         alignItems: "center",
         justifyContent: "center",
       }}>

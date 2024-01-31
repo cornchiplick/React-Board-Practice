@@ -1,9 +1,10 @@
-import { useDeferredValue, useState } from "react";
+import { useDeferredValue } from "react";
 import { useRouter } from "../../../route/hook/useRouter";
 import { useBoardListQuery } from "../service/query/boardListQuery";
 import { Box, Checkbox, MenuItem, Pagination, Stack, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, TableSortLabel, TextField, Typography } from "@mui/material";
 import { useListControl } from "../../../hook/useListControl";
 import { CommonConstants } from "../../../common/common-constants";
+import { getAutoFormattedDate } from "../../../common/common-utils";
 
 const visuallyHidden = {
   border: 0,
@@ -94,22 +95,34 @@ const BoardListItem = ({listCtrl, board}) => {
       <TableCell>
         <Checkbox checked={listCtrl.selectedList.includes(board.id)} onChange={() => listCtrl.onSelectRow(board.id)}/>
       </TableCell>
-      <TableCell sx={{textAlign: "center"}}>{board.id}</TableCell>
-      <TableCell>
-        <Typography component="div"
-          onClick={() => onClickTitle(board.id)}
-          sx={{
-            cursor: "pointer",
-            color: "#c0c0c0",
-            ...(board.isRead && {
-              color: "#000",
-              fontWeight: 600
-            })
-          }}>
-        {board.title}
-        </Typography>
-      </TableCell>
-      <TableCell sx={{textAlign: "center"}}>{board.regDate}</TableCell>
+      {
+        listCtrl.headerList.map(header => {
+          switch (header.column) {
+            case "id" :
+              return (
+                <TableCell key={header.column} sx={{...(header.itemTextAlign && {textAlign: header.itemTextAlign})}}>{board.id}</TableCell>
+              );
+            case "title" :
+              return (
+                <TableCell key={header.column}>
+                  <Typography component="div" 
+                    onClick={() => onClickTitle(board.id)}
+                    sx={{
+                      cursor: "pointer",
+                      // ...(board.isRead ? {color: "#c0c0c0"} : {color: "#000", fontWeight: 600}),
+                      ...(header.itemTextAlign && {textAlign: header.itemTextAlign})
+                      }}>
+                  {board.title}
+                  </Typography>
+                </TableCell>
+              );
+            case "regDate" :
+              return (
+                <TableCell key={header.column} sx={{...(header.itemTextAlign && {textAlign: header.itemTextAlign})}}>{getAutoFormattedDate(board.regDate)}</TableCell>
+              );
+          }
+        })
+      }
     </TableRow>
   )
 }

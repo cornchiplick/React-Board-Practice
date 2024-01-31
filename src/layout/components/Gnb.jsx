@@ -17,12 +17,12 @@ function GnbItem({menu}) {
     <Box onClick={() => onClickMove(menu.path)} sx={{cursor: "pointer"}}>
       <Typography variant="h6"
         sx={{
-          color: "#060505",
+          color: "#cecece",
           ...(isActive && {
             color: "#000"
           })
         }}>
-          {menu.name}
+        {menu.name}
       </Typography>
     </Box>
   );

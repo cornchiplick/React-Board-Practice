@@ -5,7 +5,7 @@ import { useBoardSelectQuery } from "../service/query/boardSelectQuery";
 export default function BoardView() {
 
   const {id} = useParams();
-  const {data: board} = useBoardSelectQuery({id});
+  const {data: board} = useBoardSelectQuery(id);
 
   return (
     <Stack sx={{flex: 1, gap: 2, overflow: "auto"}}>

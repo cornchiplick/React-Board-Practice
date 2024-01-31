@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => {
     plugins: [react()],
     server: {
       host: true,
-      port: 5555,
+      port: 6677,
       proxy: {
         '/mock': {
           target: env.VITE_SERVER_MOCK,

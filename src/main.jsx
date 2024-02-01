@@ -8,7 +8,6 @@ import { BrowserRouter } from 'react-router-dom'
 import { RecoilRoot } from 'recoil'
 import DebugObserver from './recoil/DebugObserver.jsx'
 import { ThemeProvider, createTheme } from '@mui/material'
-import { blue, red } from '@mui/material/colors'
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -51,11 +50,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <DebugObserver/>
       <QueryClientProvider client={queryClient}>
         <ReactQueryDevtools initialIsOpen={true}/>
-        <ThemeProvider theme={theme}>
+        {/* <ThemeProvider theme={theme}> */}
           <BrowserRouter>
             <App />
           </BrowserRouter>
-        </ThemeProvider>
+        {/* </ThemeProvider> */}
       </QueryClientProvider>
     </RecoilRoot>
   </React.StrictMode>,

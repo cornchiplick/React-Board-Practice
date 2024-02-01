@@ -109,7 +109,7 @@ const BoardListItem = ({listCtrl, board}) => {
                     onClick={() => onClickTitle(board.id)}
                     sx={{
                       cursor: "pointer",
-                      // ...(board.isRead ? {color: "#c0c0c0"} : {color: "#000", fontWeight: 600}),
+                      ...(board.isRead ? {color: "#c0c0c0"} : {color: "#000", fontWeight: 600}),
                       ...(header.itemTextAlign && {textAlign: header.itemTextAlign})
                       }}>
                   {board.title}

@@ -34,7 +34,7 @@ export default function BoardWrite() {
   };
 
   const onKeydown = (e) => {
-    if (e.kkey === 'Escape') {
+    if (e.key === 'Escape') {
       onCloseWrite();
     }
   };

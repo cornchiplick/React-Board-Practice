@@ -41,7 +41,7 @@
       "title": "게시글 3번 제목 입니다.",
       "contents": "3번 게시글 내용입니다.",
       "regDate": 1673353794900,
-      "isRead": true
+      "isRead": false
     },
     {
       "id": 4,
@@ -55,14 +55,14 @@
       "title": "게시글 5번 제목 입니다.",
       "contents": "5번 게시글 내용입니다.",
       "regDate": 1677268684074,
-      "isRead": true
+      "isRead": false
     },
     {
       "id": 6,
       "title": "게시글 6번 제목 입니다.",
       "contents": "6번 게시글 내용입니다.",
       "regDate": 1678302851662,
-      "isRead": true
+      "isRead": false
     },
     {
       "id": 7,
@@ -139,14 +139,14 @@
       "title": "게시글 17번 제목 입니다.",
       "contents": "17번 게시글 내용입니다.",
       "regDate": 1699968699101,
-      "isRead": true
+      "isRead": false
     },
     {
       "id": 18,
       "title": "게시글 18번 제목 입니다.",
       "contents": "18번 게시글 내용입니다.",
       "regDate": 1700181880856,
-      "isRead": true
+      "isRead": false
     },
     {
       "id": 19,
@@ -188,13 +188,13 @@
       "contents": "홍홍",
       "regDate": 1701745649909,
       "id": 24,
-      "isRead": true
+      "isRead": false
     },
     {
       "title": "ㄴㅇ",
       "contents": "ㄴㅇㄴㅇ",
       "regDate": 1701762039196,
-      "isRead": true,
+      "isRead": false,
       "id": 25
     },
     {
@@ -250,35 +250,35 @@
       "title": "123",
       "contents": "123",
       "regDate": 1701913827993,
-      "isRead": true,
+      "isRead": false,
       "id": 33
     },
     {
       "title": "1111111",
       "contents": "11111",
       "regDate": 1701913849343,
-      "isRead": true,
+      "isRead": false,
       "id": 34
     },
     {
       "title": "123123123",
       "contents": "123123123",
       "regDate": 1701913893838,
-      "isRead": true,
+      "isRead": false,
       "id": 35
     },
     {
       "title": "호호호호",
       "contents": "호호호",
       "regDate": 1702018937354,
-      "isRead": true,
+      "isRead": false,
       "id": 36
     },
     {
       "title": "키키키키223",
       "contents": "호호호ㅗ",
       "regDate": 1702019330656,
-      "isRead": true,
+      "isRead": false,
       "id": 37
     },
     {
@@ -292,14 +292,14 @@
       "title": "asdfasdf",
       "contents": "asdfasdf",
       "regDate": 1702217343855,
-      "isRead": true,
+      "isRead": false,
       "id": 39
     },
     {
       "title": "ddddd.....",
       "contents": "2222...",
       "regDate": 1702217767680,
-      "isRead": true,
+      "isRead": false,
       "id": 40
     },
     {
